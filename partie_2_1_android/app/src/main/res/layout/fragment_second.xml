@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SecondFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    android:weightSum="10"
+    android:id="@+id/second_fr"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:src="@mipmap/bf" />
+    <Button
+        android:id="@+id/btn_go_to_first_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/first_fragment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+
+</LinearLayout>
